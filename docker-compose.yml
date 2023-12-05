@@ -1,0 +1,6 @@
+services:
+  api:
+    image: golearn:latest
+    container_name: golearn-api
+    ports:
+      - "8000:8000"

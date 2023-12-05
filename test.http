@@ -1,0 +1,17 @@
+#add a
+POST http://localhost:8000/user/a
+
+###
+
+#add b
+POST http://localhost:8000/user/b
+
+###
+
+#add c
+POST http://localhost:8000/user/c
+
+###
+
+#delete b
+DELETE http://localhost:8000/user?
